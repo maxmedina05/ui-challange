@@ -1,3 +1,23 @@
-p {
-    color: green;
+nav {
+  border-bottom: 1.5px solid #e6e6e6;
+  .telephone {
+    color: #999;
+
+    .telephone-icon {
+      display: none;
+    }
+
+    i {
+      margin-left: 16px;
+      margin-right: 8px;
+      transform: scaleX(-1);
+    }
+
+    .telephone-message {
+      a {
+        color: #000;
+        text-decoration: underline;
+      }
+    }
+  }
 }

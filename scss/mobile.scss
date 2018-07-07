@@ -1,0 +1,16 @@
+@media screen and(max-width: 360px) {
+  nav {
+    .telephone {
+      .telephone-icon {
+        display: inline;
+        font-size: 24px;
+        vertical-align: middle;
+        color: #999;
+      }
+
+      .telephone-message {
+        display: none;
+      }
+    }
+  }
+}
