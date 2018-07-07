@@ -36,3 +36,41 @@ nav {
     color: #666;
   }
 }
+
+.summary {
+  margin-top: 64px;
+  border: 1.5px solid #e6e6e6;
+
+  .summary-header {
+    padding: 32px;
+  }
+
+  .summary-details {
+    padding-left: 32px;
+    .label {
+      text-transform: uppercase;
+      color: #aaa;
+      font-size: 12px;
+      font-weight: 600;
+    }
+
+    .input-value {
+      font-weight: 600;
+    }
+  }
+
+  .btn-warning {
+    border-bottom: 2px solid #e5a701;
+    background-color: #feb901;
+    color: #fff;
+    padding: 0 16px;
+    font-weight: 500;
+    box-sizing: border-box;
+    height: 40px;
+    cursor: pointer;
+  }
+
+  .download-section {
+    text-align: right;
+  }
+}

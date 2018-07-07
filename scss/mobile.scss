@@ -20,4 +20,24 @@
       display: none;
     }
   }
+
+  .summary {
+    margin-top: 32px;
+    border: inherit;
+    text-align: center;
+
+    .responsive-image {
+      width: 100%;
+    }
+
+    .summary-details {
+      text-align: left;
+      padding-left: 12px;
+      margin: 24px 0;
+    }
+
+    .download-section {
+      text-align: center;
+    }
+  }
 }
